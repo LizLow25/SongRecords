@@ -1,0 +1,15 @@
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/bin/Debug/net6.0/SongRecordStore.DAL.deps.json
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/bin/Debug/net6.0/SongRecordStore.DAL.dll
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/bin/Debug/net6.0/SongRecordStore.DAL.pdb
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/bin/Debug/net6.0/SongRecordStore.CORE.dll
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/bin/Debug/net6.0/SongRecordStore.CORE.pdb
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/SongRecordStore.DAL.csproj.AssemblyReference.cache
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/SongRecordStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/SongRecordStore.DAL.AssemblyInfoInputs.cache
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/SongRecordStore.DAL.AssemblyInfo.cs
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/SongRecordStore.DAL.csproj.CoreCompileInputs.cache
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/SongRecordStore.DAL.csproj.CopyComplete
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/SongRecordStore.DAL.dll
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/refint/SongRecordStore.DAL.dll
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/SongRecordStore.DAL.pdb
+/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/Debug/net6.0/ref/SongRecordStore.DAL.dll

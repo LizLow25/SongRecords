@@ -4,11 +4,12 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SongRecordStore.CORE.Interfaces;
 using SongRecordStore.CORE.Models;
 
 namespace SongRecordStore.DAL
 {
-    public class MockRecordRepository
+    public class MockRecordRepository : IRecordRepository
     {
         private List<SongRecord> _songRecords;
 

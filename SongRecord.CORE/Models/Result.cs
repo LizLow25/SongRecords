@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SongRecord.CORE.Models
+namespace SongRecordStore.CORE.Models
 {
     public class Result
     {

@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords\\SongRecordStore.csproj": {}
+    "/Users/elizabethlowry/Desktop/songrecords/SongRecords/SongRecordStore.csproj": {}
   },
   "projects": {
-    "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj": {
+    "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj",
+        "projectUniqueName": "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj",
         "projectName": "SongRecordStore.CORE",
-        "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj",
-        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\obj\\",
+        "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj",
+        "packagesPath": "/Users/elizabethlowry/.nuget/packages/",
+        "outputPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/elizabethlowry/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,39 +54,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords.BLL\\SongRecordStore.BLL.csproj": {
+    "/Users/elizabethlowry/Desktop/songrecords/SongRecords.BLL/SongRecordStore.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords.BLL\\SongRecordStore.BLL.csproj",
+        "projectUniqueName": "/Users/elizabethlowry/Desktop/songrecords/SongRecords.BLL/SongRecordStore.BLL.csproj",
         "projectName": "SongRecordStore.BLL",
-        "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords.BLL\\SongRecordStore.BLL.csproj",
-        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords.BLL\\obj\\",
+        "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecords.BLL/SongRecordStore.BLL.csproj",
+        "packagesPath": "/Users/elizabethlowry/.nuget/packages/",
+        "outputPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecords.BLL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/elizabethlowry/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj": {
-                "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj"
+              "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj": {
+                "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj"
               },
-              "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj": {
-                "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj"
+              "/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/SongRecordStore.DAL.csproj": {
+                "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/SongRecordStore.DAL.csproj"
               }
             }
           }
@@ -117,98 +115,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj": {
+    "/Users/elizabethlowry/Desktop/songrecords/SongRecords/SongRecordStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj",
-        "projectName": "SongRecordStore.DAL",
-        "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj",
-        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj": {
-                "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords\\SongRecordStore.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords\\SongRecordStore.csproj",
+        "projectUniqueName": "/Users/elizabethlowry/Desktop/songrecords/SongRecords/SongRecordStore.csproj",
         "projectName": "SongRecordStore",
-        "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords\\SongRecordStore.csproj",
-        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords\\obj\\",
+        "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecords/SongRecordStore.csproj",
+        "packagesPath": "/Users/elizabethlowry/.nuget/packages/",
+        "outputPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecords/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/elizabethlowry/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj": {
-                "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj"
+              "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj": {
+                "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj"
               },
-              "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords.BLL\\SongRecordStore.BLL.csproj": {
-                "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords.BLL\\SongRecordStore.BLL.csproj"
+              "/Users/elizabethlowry/Desktop/songrecords/SongRecords.BLL/SongRecordStore.BLL.csproj": {
+                "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecords.BLL/SongRecordStore.BLL.csproj"
               }
             }
           }
@@ -238,7 +176,65 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/SongRecordStore.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/SongRecordStore.DAL.csproj",
+        "projectName": "SongRecordStore.DAL",
+        "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/SongRecordStore.DAL.csproj",
+        "packagesPath": "/Users/elizabethlowry/.nuget/packages/",
+        "outputPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecordStore.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elizabethlowry/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj": {
+                "projectPath": "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }

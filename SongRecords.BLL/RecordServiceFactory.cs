@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SongRecordStore.CORE.Enums;
 using SongRecordStore.CORE.Interfaces;
+using SongRecordStore.DAL;
 
 namespace SongRecordStore.BLL
 {

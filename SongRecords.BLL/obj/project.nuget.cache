@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9M/GlLdU2oE9/A+NMCSwo0ibh0oACt5afpFfDACwnwrSHG/u4v6zvq18q9No63cbQfQPc1eQV0zQVyG/N++WGg==",
+  "dgSpecHash": "ln3Htt6lqPgfiOQ4ByeV1Tp7CYnc7ELJUJ3NNmjsOLVE3p1gfIjmme3u4DEl6vTgAdgqL/ZquYLQhzXGhFHs/Q==",
   "success": true,
-  "projectFilePath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecords.BLL\\SongRecordStore.BLL.csproj",
+  "projectFilePath": "/Users/elizabethlowry/Desktop/songrecords/SongRecords.BLL/SongRecordStore.BLL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

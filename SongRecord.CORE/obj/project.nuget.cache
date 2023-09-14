@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q66BJ87paRLw+BsaxftvDVBJmqcHRt3VNeXeHo71A5tsCEpZUC0icNnZTiQQQmWVql/aKS4V/DUwB6pdUaehvA==",
+  "dgSpecHash": "prT5r/ehZj8ZfyeOIn+zD9lGjZLPEAQ3u3mL/+gpuSN+EdH9iqykZ2dl+f1qaQYnjN60qvlkeYvj6Y8Y/+RR5Q==",
   "success": true,
-  "projectFilePath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj",
+  "projectFilePath": "/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/SongRecordStore.CORE.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

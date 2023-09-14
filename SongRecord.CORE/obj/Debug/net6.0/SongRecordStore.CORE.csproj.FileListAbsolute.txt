@@ -1,0 +1,12 @@
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/SongRecordStore.CORE.csproj.AssemblyReference.cache
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/SongRecordStore.CORE.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/SongRecordStore.CORE.AssemblyInfoInputs.cache
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/SongRecordStore.CORE.AssemblyInfo.cs
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/SongRecordStore.CORE.csproj.CoreCompileInputs.cache
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/bin/Debug/net6.0/SongRecordStore.CORE.deps.json
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/bin/Debug/net6.0/SongRecordStore.CORE.dll
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/bin/Debug/net6.0/SongRecordStore.CORE.pdb
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/SongRecordStore.CORE.dll
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/refint/SongRecordStore.CORE.dll
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/SongRecordStore.CORE.pdb
+/Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/ref/SongRecordStore.CORE.dll

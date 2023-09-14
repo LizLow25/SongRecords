@@ -1,9 +1,10 @@
-﻿using SongRecordStore.CORE.Models;
+﻿using SongRecordStore.CORE.Interfaces;
+using SongRecordStore.CORE.Models;
 using System.Data;
 
 namespace SongRecordStore.DAL
 {
-    public class FileRecordRepository
+    public class FileRecordRepository : IRecordRepository
     {
         private string _fileName;
         public FileRecordRepository(string fileName)

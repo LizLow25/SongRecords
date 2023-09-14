@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SongRecord.CORE\SongRecordStore.CORE.csproj" />
+    <ProjectReference Include="..\SongRecordStore.DAL\SongRecordStore.DAL.csproj" />
+  </ItemGroup>
 </Project>
