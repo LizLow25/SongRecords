@@ -25,13 +25,13 @@ namespace SongRecordStore
             bool keepRunning = true;
             while (keepRunning)
             {
-                int choice = _io.PromptInt("1. Load a Record\r\n" +
-                    "2. View Records By Type of Music\r\n" +
-                    "3. View Records By Album\r\n\"+ 
-                    "4. Add Record\r\n" +
-                    "5. Edit Record\r\n" +
-                    "6. Delete Record\r\n" +
-                    "7. Quit\r\n"", 1, 6);
+                int choice = _io.PromptInt("1. Load a Record \n" +
+                    "2. View Records By Type of Music \n" +
+                    "3. View Records By Album \n" +
+                    "4. Add Record \n" +
+                    "5. Edit Record \n" +
+                    "6. Delete Record \n" +
+                    "7. Quit\n", 1, 6);
                 switch (choice)
                 {
                     case 1:
