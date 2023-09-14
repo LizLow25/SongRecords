@@ -7,7 +7,7 @@ namespace SongRecordStore.BLL
     public class RecordService : IRecordService
 
     {
-        private readonly IRecordRepository repo;
+        private readonly IRecordRepository _repo;
 
         public RecordService(IRecordRepository repo)
         {

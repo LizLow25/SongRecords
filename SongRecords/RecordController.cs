@@ -1,4 +1,5 @@
-﻿using SongRecordStore.CORE.Interfaces;
+﻿using SongRecordStore.CORE.Enums;
+using SongRecordStore.CORE.Interfaces;
 using SongRecordStore.CORE.Models;
 using SongRecordStore.UI;
 using System;
@@ -56,7 +57,7 @@ namespace SongRecordStore
                         keepRunning = false;
                         break;
                     default:
-                        _io.Display("Contact I.T", ConsoleColor.White);
+                        _io.Display("Contact I.T");
                         break;
                 }
             }
@@ -71,12 +72,24 @@ namespace SongRecordStore
             }
             else
             {
-                _io.Display(result.Message, ConsoleColor.White);
+                _io.Display(result.Message);
             }
         }
         void ViewRecordsByTypeOfMusic()
         {
-            throw new NotImplementedException();
+            MusicType musicType = (MusicType)_io.PromptMusicType("Please enter the type of music: 1.CLASSICAL 2.POP 3.ROCK 4.JAZZ 5.HIPHOP 6.R&B");
+            Result<List<SongRecord>> result = _service.Load (musicType);
+            if (result.Success)
+            {
+                foreach (SongRecord record in result.Data)
+                {
+                    _io.DisplaySongRecord(record);
+                }
+            }
+            else
+            {
+                _io.Display(result.Message);
+            }
         }
 
         void ViewRecordByAlbum()
@@ -89,11 +102,11 @@ namespace SongRecordStore
             Result<SongRecord> result = _service.Add(record);
             if (result.Success)
             {
-                _io.Display("Song Record Saved!", ConsoleColor.White);
+                _io.Display("Song Record Saved!");
             }
             else
             {
-                _io.Display(result.Message, ConsoleColor.Yellow);
+                _io.Display(result.Message);
             }
         }
         void EditRecord()
