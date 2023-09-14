@@ -78,7 +78,7 @@ namespace SongRecordStore
         void ViewRecordsByTypeOfMusic()
         {
             MusicType musicType = (MusicType)_io.PromptMusicType("Please enter the type of music: 1.CLASSICAL 2.POP 3.ROCK 4.JAZZ 5.HIPHOP 6.R&B");
-            Result<List<SongRecord>> result = _service.Load (musicType);
+            Result<List<SongRecord>> result = _service.LoadByMusicType(musicType);
             if (result.Success)
             {
                 foreach (SongRecord record in result.Data)

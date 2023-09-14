@@ -1,4 +1,5 @@
-﻿using SongRecordStore.CORE.Interfaces;
+﻿using SongRecordStore.CORE.Enums;
+using SongRecordStore.CORE.Interfaces;
 using SongRecordStore.CORE.Models;
 using System.Data;
 
@@ -11,13 +12,13 @@ namespace SongRecordStore.BLL
 
         public RecordService(IRecordRepository repo)
         {
-            this.repo = repo;
+            this._repo = repo;
         }
 
         public Result<SongRecord> Get(string songName)
         {
             Result<SongRecord> result = new Result<SongRecord>();
-            Result<List<SongRecord>> recordResult = repo.ReadAll();
+            Result<List<SongRecord>> recordResult = _repo.ReadAll();
             if (!recordResult.Success)
             {
                 result.Message = recordResult.Message;
@@ -67,9 +68,54 @@ namespace SongRecordStore.BLL
                 return result;
             }
 
-            result = repo.Create(songrecord);
+            result = _repo.Create(songrecord);
             return result;
         }
 
+        public Result<List<SongRecord>> LoadByMusicType(MusicType musicType)
+        {
+            Result<List<SongRecord>> recordResult = _repo.ReadAll();
+            if (!recordResult.Success)
+            {
+                return recordResult;
+            }
+            recordResult.Success = false;
+            recordResult.Message = "No records found for that type of music";
+            List<SongRecord> filter = new List<SongRecord>();
+            foreach (SongRecord record in recordResult.Data)
+            {
+                if (record.TypeOfMusic == musicType)
+                {
+                    filter.Add(record);
+                    recordResult.Success = true;
+                    recordResult.Message = null;
+                }
+            }
+            recordResult.Data = filter;
+            return recordResult;
+        }
+
+        public Result<List<SongRecord>> LoadByAlbum(string album)
+        {
+            Result<List<SongRecord>> recordResult = _repo.ReadAll();
+            if (!recordResult.Success)
+            {
+                return recordResult;
+            }
+            recordResult.Success = false;
+            recordResult.Message = "No records found for that album";
+            List<SongRecord> filter = new List<SongRecord>();
+            foreach (SongRecord record in recordResult.Data)
+            {
+                if (record.Album == album)
+                {
+                    filter.Add(record);
+                    recordResult.Success = true;
+                    recordResult.Message = null;
+                }
+            }
+            recordResult.Data = filter;
+            return recordResult;
+        }
     }
 }
