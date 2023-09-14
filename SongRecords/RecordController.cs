@@ -68,7 +68,7 @@ namespace SongRecordStore
             Result<SongRecord> result = _service.Get(songName);
             if (result.Success)
             {
-                _io.DisplaySongRecord(result.Data);
+                //_io.DisplaySongRecord(result.Data);
             }
             else
             {

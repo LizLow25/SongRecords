@@ -20,7 +20,8 @@ namespace SongRecordStore.DAL
 
         public Result<SongRecord> Create(SongRecord songRecord)
         {
-            throw new NotImplementedException();
+            _songRecords.Add(songRecord);
+            return new Result<SongRecord> { Data = songRecord, Success = true };
         }
 
         public Result<List<SongRecord>> ReadAll()
