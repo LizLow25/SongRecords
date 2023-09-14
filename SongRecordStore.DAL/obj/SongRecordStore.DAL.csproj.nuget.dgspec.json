@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj": {}
+  },
+  "projects": {
+    "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj",
+        "projectName": "SongRecordStore.CORE",
+        "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj",
+        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+        "outputPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj",
+        "projectName": "SongRecordStore.DAL",
+        "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\SongRecordStore.DAL.csproj",
+        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+        "outputPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecordStore.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj": {
+                "projectPath": "D:\\James\\HDT-CS\\M3\\SongRecords\\SongRecord.CORE\\SongRecordStore.CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
