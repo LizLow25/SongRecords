@@ -130,5 +130,18 @@ namespace SongRecordStore.UI
         {
             return (ApplicationMode)(PromptInt(message, 1, 2) - 1);
         } 
+
+        public void DisplaySongRecord(SongRecord record)
+        {
+            Display("=============Song Record================");
+            Display($"Name: {record.Name}");
+            Display($"Artist: {record.Artist}");
+            Display($"Album: {record.Album}");
+            Display($"Track Number: {record.TrackNumber}");
+            Display($"Duration: {record.Duration.ToString("F2")}");
+            Display($"Release Date: {record.ReleaseDate.ToShortDateString()}");
+            Display($"Type Of Music: {record.TypeOfMusic.ToString()}");
+
+        }
     }
 }

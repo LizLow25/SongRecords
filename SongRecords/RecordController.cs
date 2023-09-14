@@ -1,4 +1,5 @@
-﻿using SongRecordStore.CORE.Interfaces;
+﻿using SongRecordStore.CORE.Enums;
+using SongRecordStore.CORE.Interfaces;
 using SongRecordStore.CORE.Models;
 using SongRecordStore.UI;
 using System;
@@ -24,13 +25,13 @@ namespace SongRecordStore
             bool keepRunning = true;
             while (keepRunning)
             {
-                int choice = _io.PromptInt("1. Load a Record\r\n" +
-                    "2. View Records By Type of Music\r\n" +
-                    "3. View Records By Album\r\n\" +" +
-                    "4. Add Record\r\n" +
-                    "5. Edit Record\r\n" +
-                    "6. Delete Record\r\n" +
-                    "7. Quit\r\n", 1, 6);
+                int choice = _io.PromptInt("1. Load a Record \n" +
+                    "2. View Records By Type of Music \n" +
+                    "3. View Records By Album \n" +
+                    "4. Add Record \n" +
+                    "5. Edit Record \n" +
+                    "6. Delete Record \n" +
+                    "7. Quit\n", 1, 6);
                 switch (choice)
                 {
                     case 1:
@@ -76,7 +77,19 @@ namespace SongRecordStore
         }
         void ViewRecordsByTypeOfMusic()
         {
-            throw new NotImplementedException();
+            MusicType musicType = (MusicType)_io.PromptMusicType("Please enter the type of music: 1.CLASSICAL 2.POP 3.ROCK 4.JAZZ 5.HIPHOP 6.R&B");
+            Result<List<SongRecord>> result = _service.LoadByMusicType(musicType);
+            if (result.Success)
+            {
+                foreach (SongRecord record in result.Data)
+                {
+                    _io.DisplaySongRecord(record);
+                }
+            }
+            else
+            {
+                _io.Display(result.Message);
+            }
         }
 
         void ViewRecordByAlbum()
