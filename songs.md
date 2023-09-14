@@ -1,10 +1,11 @@
 Menu
 1. Load a Record
 2. View Records By Type of Music
-3. Add Record
-4. Edit Record
-5. Delete Record
-6. Quit
+3. View Records By Album
+4. Add Record
+5. Edit Record
+6. Delete Record
+7. Quit
 Enter Choice:
 ```
 SongRecords.UI
@@ -19,6 +20,7 @@ SongRecords.UI
 		+ Display(string message) : void
 		+ Prompt(string message) : string
 		+ PromptInt(string message, int min, int max) : int
+		+ PromptDateTime(string message) : DateTime
 		+ PromptDecimal(string message, decimal min, decimal max) : decimal
 		+ PromptNewSongRecord(string message) : SongRecord
 		+ PromptEditSongRecord(SongRecord record) : SongRecord
@@ -47,12 +49,13 @@ SongRecords.CORE
 			+ Name : string {g/s}
 			+ Artist : string {g/s}
 			+ Album : string {g/s}
+			+ TrackNumber : int {g/s}
 			+ Duration : decimal {g/s}
-			+ Year : int {g/s}
-			+ TypeOfMusic : string {g/s}
-
+			+ ReleaseDate : DateTime {g/s}
+			+ TypeOfMusic : MusicType {g/s}
 	> Enums
 		+ ApplicationMode [Enum LIVE|TEST]
+		+ MusicType [Enum CLASSICAL|POP|ROCK|JAZZ|HIPHOP|R&B]
 	> Interfaces
 		+ IRecordRepository
 		//CRUD
@@ -61,9 +64,24 @@ SongRecords.CORE
 			+ Update(SongRecord songRecord): Result
 			+ Delete(sting name): Result
 		+ IRecordService
-			+ LoadRange(int startYear, int endYear) : Result<List<SongRecord>>
 			+ LoadTypeOfMusic(string typeOfMusic) : Result<List<SongRecord>>
+			+ LoadSongsOfAlbum(string album) : Result<List<SongRecord>>
 			+ Get(string name) : Result<SongRecord>
-			+ Add(SongRecord songRecord): Result<SongRecord> // will do validation
+			+ Add(SongRecord songRecord): Result<SongRecord>
+				//Validation
+					//Name : Length >=2
+					//Artist : Length >=2
+					//Album : : Length >=2
+					//TrackNumber : between 1 and 50
+					//Duration : between 0 and 100
+					//ReleaseDate between 1500 and DateTime.Now
+					//TypeOfMusic : MusicType
 			+ Remove(string name) : Result
 			+ Edit(SongRecord songRecord): Result
+
+
+
+
+
+JW
+
