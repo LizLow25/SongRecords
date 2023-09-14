@@ -50,3 +50,17 @@ D:\James\HDT-CS\M3\SongRecords\SongRecords\obj\Debug\net6.0\SongRecordStore.cspr
 D:\James\HDT-CS\M3\SongRecords\SongRecords\obj\Debug\net6.0\SongRecordStore.dll
 D:\James\HDT-CS\M3\SongRecords\SongRecords\obj\Debug\net6.0\refint\SongRecordStore.dll
 D:\James\HDT-CS\M3\SongRecords\SongRecords\obj\Debug\net6.0\SongRecordStore.pdb
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.exe
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.deps.json
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.runtimeconfig.json
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.dll
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.pdb
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.BLL.dll
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.CORE.dll
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.DAL.dll
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.BLL.pdb
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.CORE.pdb
+D:\James\HDT-CS\M3\SongRecords\SongRecords\bin\Debug\net6.0\SongRecordStore.DAL.pdb
+D:\James\HDT-CS\M3\SongRecords\SongRecords\obj\Debug\net6.0\SongRecordStore.csproj.CopyComplete
+D:\James\HDT-CS\M3\SongRecords\SongRecords\obj\Debug\net6.0\SongRecordStore.genruntimeconfig.cache
+D:\James\HDT-CS\M3\SongRecords\SongRecords\obj\Debug\net6.0\ref\SongRecordStore.dll

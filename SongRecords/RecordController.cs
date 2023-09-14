@@ -27,11 +27,11 @@ namespace SongRecordStore
             {
                 int choice = _io.PromptInt("1. Load a Record\r\n" +
                     "2. View Records By Type of Music\r\n" +
-                    "3. View Records By Album\r\n\" +" +
+                    "3. View Records By Album\r\n\"+ 
                     "4. Add Record\r\n" +
                     "5. Edit Record\r\n" +
                     "6. Delete Record\r\n" +
-                    "7. Quit\r\n", 1, 6);
+                    "7. Quit\r\n"", 1, 6);
                 switch (choice)
                 {
                     case 1:
