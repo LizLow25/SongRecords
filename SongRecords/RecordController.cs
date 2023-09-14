@@ -56,7 +56,7 @@ namespace SongRecordStore
                         keepRunning = false;
                         break;
                     default:
-                        _io.Display("Contact I.T", ConsoleColor.White);
+                        _io.Display("Contact I.T");
                         break;
                 }
             }
@@ -67,11 +67,11 @@ namespace SongRecordStore
             Result<SongRecord> result = _service.Get(songName);
             if (result.Success)
             {
-                _io.DisplaySongRecord(result.Data);
+                //_io.DisplaySongRecord(result.Data);
             }
             else
             {
-                _io.Display(result.Message, ConsoleColor.White);
+                _io.Display(result.Message);
             }
         }
         void ViewRecordsByTypeOfMusic()
@@ -89,11 +89,11 @@ namespace SongRecordStore
             Result<SongRecord> result = _service.Add(record);
             if (result.Success)
             {
-                _io.Display("Song Record Saved!", ConsoleColor.White);
+                _io.Display("Song Record Saved!");
             }
             else
             {
-                _io.Display(result.Message, ConsoleColor.Yellow);
+                _io.Display(result.Message);
             }
         }
         void EditRecord()
