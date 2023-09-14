@@ -25,7 +25,7 @@ namespace SongRecordStore.DAL
 
         public Result<List<SongRecord>> ReadAll()
         {
-            throw new NotImplementedException();
+            return new Result<List<SongRecord>> { Data = _songRecords, Success = true };
         }
 
         public Result Update(SongRecord songRecord)

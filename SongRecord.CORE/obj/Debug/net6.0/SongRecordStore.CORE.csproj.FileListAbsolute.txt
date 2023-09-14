@@ -10,3 +10,14 @@
 /Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/refint/SongRecordStore.CORE.dll
 /Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/SongRecordStore.CORE.pdb
 /Users/elizabethlowry/Desktop/songrecords/SongRecord.CORE/obj/Debug/net6.0/ref/SongRecordStore.CORE.dll
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\bin\Debug\net6.0\SongRecordStore.CORE.deps.json
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\bin\Debug\net6.0\SongRecordStore.CORE.dll
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\bin\Debug\net6.0\SongRecordStore.CORE.pdb
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\obj\Debug\net6.0\SongRecordStore.CORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\obj\Debug\net6.0\SongRecordStore.CORE.AssemblyInfoInputs.cache
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\obj\Debug\net6.0\SongRecordStore.CORE.AssemblyInfo.cs
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\obj\Debug\net6.0\SongRecordStore.CORE.csproj.CoreCompileInputs.cache
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\obj\Debug\net6.0\SongRecordStore.CORE.dll
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\obj\Debug\net6.0\refint\SongRecordStore.CORE.dll
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\obj\Debug\net6.0\SongRecordStore.CORE.pdb
+D:\James\HDT-CS\M3\SongRecords\SongRecord.CORE\obj\Debug\net6.0\ref\SongRecordStore.CORE.dll
